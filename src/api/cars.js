@@ -7,6 +7,8 @@ export const getAllCars = () => {
 }
 
 // show function
-export const getOnePet = (petId) => {
-    return axios(`${apiUrl}/pets/${petId}`)
+export const getOneCar = (carId) => {
+    return axios(`${apiUrl}/cars/${carId}`)
+    
+    
 }
